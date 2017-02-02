@@ -8,10 +8,12 @@ p {
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
 body {
   background-color: #e9d1dd;
+  text-align: center;
 }
 
 #container {
