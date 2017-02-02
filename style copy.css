@@ -1,7 +1,7 @@
 /*styles go here*/
 
 p {
-  color: #9F0B55;
+  color: #9f0b55;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
 }
 
 body {
-  background-color: #CD7DA5;
+  background-color: #cd7da5;
 }
 
 #container {
@@ -32,7 +32,7 @@ body {
 #nav a:link, #nav a:visited {
   display: block;
   color: #ffffff;
-  background-color: #CD7DA5;
+  background-color: #cd7da5;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
