@@ -62,4 +62,5 @@ body {
 
 img {
   border: none;
+  image-orientation: center;
 }
