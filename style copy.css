@@ -1,7 +1,7 @@
 /*styles go here*/
 
 p {
-  color: #666666;
+  color: #blue;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -57,7 +57,7 @@ body {
   color: black;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.8em;
-  border-top: 1px solid black; 
+  border-top: 1px solid black;
 }
 
 img {
