@@ -3,6 +3,7 @@
 p {
   color: #9f0b55;
   font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -62,5 +63,4 @@ body {
 
 img {
   border: none;
-  image-orientation: center;
 }
