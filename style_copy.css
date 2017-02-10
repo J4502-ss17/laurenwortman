@@ -57,10 +57,10 @@ body {
 }
 
 #footer {
-  color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  color: grey;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-size: 0.8em;
-  border-top: 1px solid black;
+  border-top: 1px solid grey;
 }
 
 img {
