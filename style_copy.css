@@ -1,0 +1,181 @@
+/*styles go here*/
+
+p {
+  color: #4f4f4f;
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+header, article, aside, footer {
+  flex: 1 100%;
+  padding: 10px;
+}
+
+
+h1 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background-color: #e9d1dd;
+  text-align: center;
+}
+
+#container {
+  width: 95%;
+  margin: 0 auto 0 auto
+}
+
+#nav {
+  padding: 0;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+#nav li {
+  margin: 0;
+  padding:0;
+
+}
+
+.navigation{
+	list-style: none;
+	margin: 10px;
+    padding: 0;
+    display: flex;
+	flex-flow: column;
+}
+
+#nav a:link, #nav a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #cd7da5;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #AAD7F6;
+}
+
+.caption {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-top: 0;
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.footer {
+  color: grey;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid grey;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.navigation li:last-of-type a{
+  border-bottom: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.menu-trigger {
+  order:1;
+  font-size: 1.75em;
+  width: 2em;
+}
+
+nav ul {
+  display: none;
+}
+
+aside {
+  background-color: #DCDCDC;
+}
+
+@media screen and (min-width: 600px) {
+
+  .navigation {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .menu-trigger {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  aside {
+    flex: 1 100px;
+    background-color: #DCDCDC;
+ }
+
+  article {
+    flex: 0px;
+    order: 0;
+  }
+
+  footer {
+    order: 4;
+    border-top: 3px;
+  }
+
+  img {
+      border: none;
+      float: left;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+
+  .navigation {
+      flex-flow: row;
+      justify-content: center;
+  }
+
+  aside {
+    flex: 1 100px;
+    border-top: 3px;
+  }
+
+  article {
+    flex: 0px;
+    order: 0;
+  }
+
+  nextaside {
+    flex: 2 100px;
+    border-top: 30px;}
+
+}
